@@ -1,0 +1,2 @@
+#启动 spring-boot
+nohup java -jar ad-0.0.1-SNAPSHOT.jar --server.port:9998 &

@@ -8,6 +8,7 @@ import com.nanhang.ad.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -34,11 +35,13 @@ public class UserTask {
     @Autowired
     private ThreadPoolExecutor threadPoolExecutor;
 
+    @Value("url")
+    private String url;
+
 
     @Scheduled(cron = "0 0/1 * * * ?")
     public void getUser() {
         System.out.println("进入定时器============================");
-        String url = "https://api.nuaa.edu.cn/account/viewClients?token=c8b358baa68a01846c98ee98c03ccb33";
         threadPoolExecutor.execute(() -> {
             RestTemplate restTemplate = new RestTemplate();
             HttpHeaders requestHeaders = new HttpHeaders();
