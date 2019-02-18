@@ -1,0 +1,13 @@
+13:24:47.062  INFO  - Starting AdApplicationTests on localhost with PID 18734 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+13:24:47.064  INFO  - No active profile set, falling back to default profiles: default
+13:24:47.174  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Wed Oct 31 13:24:47 CST 2018]; root of context hierarchy
+13:24:48.813  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:24:49.044  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Wed Oct 31 13:24:47 CST 2018]; root of context hierarchy
+13:24:49.155  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+13:24:49.159  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:24:49.160  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:24:49.218  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:24:49.218  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:24:49.406  INFO  - Started AdApplicationTests in 2.906 seconds (JVM running for 4.129)
+13:24:49.615  ERROR - 测试日志输出：见鬼了吗
+13:24:49.850  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Wed Oct 31 13:24:47 CST 2018]; root of context hierarchy

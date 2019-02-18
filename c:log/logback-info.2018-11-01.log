@@ -1,0 +1,248 @@
+09:35:20.024  INFO  - Starting AdApplicationTests on localhost with PID 19418 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+09:35:20.025  INFO  - No active profile set, falling back to default profiles: default
+09:35:20.150  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:35:20 CST 2018]; root of context hierarchy
+09:35:21.854  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:35:22.080  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:35:20 CST 2018]; root of context hierarchy
+09:35:22.171  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+09:35:22.172  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+09:35:22.176  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:35:22.177  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:35:22.208  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:35:22.208  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:35:22.540  INFO  - Started AdApplicationTests in 3.581 seconds (JVM running for 5.643)
+09:35:22.888  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:35:20 CST 2018]; root of context hierarchy
+09:36:00.832  INFO  - Starting AdApplicationTests on localhost with PID 19421 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+09:36:00.835  INFO  - No active profile set, falling back to default profiles: default
+09:36:00.902  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:36:00 CST 2018]; root of context hierarchy
+09:36:02.824  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:36:03.079  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:36:00 CST 2018]; root of context hierarchy
+09:36:03.169  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+09:36:03.170  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+09:36:03.173  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:36:03.174  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:36:03.202  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:36:03.203  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:36:03.469  INFO  - Started AdApplicationTests in 3.582 seconds (JVM running for 5.183)
+09:36:17.301  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:36:00 CST 2018]; root of context hierarchy
+09:37:15.196  INFO  - Starting AdApplicationTests on localhost with PID 19451 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+09:37:15.198  INFO  - No active profile set, falling back to default profiles: default
+09:37:15.278  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@407cf41: startup date [Thu Nov 01 09:37:15 CST 2018]; root of context hierarchy
+09:37:17.257  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:17.486  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@407cf41: startup date [Thu Nov 01 09:37:15 CST 2018]; root of context hierarchy
+09:37:17.580  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+09:37:17.581  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+09:37:17.585  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:37:17.586  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:17.623  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:17.623  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:17.958  INFO  - Started AdApplicationTests in 3.685 seconds (JVM running for 5.62)
+09:37:18.731  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@407cf41: startup date [Thu Nov 01 09:37:15 CST 2018]; root of context hierarchy
+09:37:34.876  INFO  - Starting AdApplicationTests on localhost with PID 19453 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+09:37:34.878  INFO  - No active profile set, falling back to default profiles: default
+09:37:34.988  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:37:34 CST 2018]; root of context hierarchy
+09:37:36.781  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:36.978  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:37:34 CST 2018]; root of context hierarchy
+09:37:37.075  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+09:37:37.076  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+09:37:37.080  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:37:37.081  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:37.111  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:37.112  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:37.331  INFO  - Started AdApplicationTests in 3.35 seconds (JVM running for 4.921)
+09:37:37.933  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:37:34 CST 2018]; root of context hierarchy
+09:38:02.157  INFO  - Starting AdApplicationTests on localhost with PID 19460 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+09:38:02.159  INFO  - No active profile set, falling back to default profiles: default
+09:38:02.216  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:38:02 CST 2018]; root of context hierarchy
+09:38:04.265  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:38:04.574  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:38:02 CST 2018]; root of context hierarchy
+09:38:04.648  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+09:38:04.650  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+09:38:04.653  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:38:04.654  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:38:04.682  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:38:04.682  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:38:05.044  INFO  - Started AdApplicationTests in 3.866 seconds (JVM running for 5.46)
+09:38:26.275  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:38:02 CST 2018]; root of context hierarchy
+09:39:43.811  INFO  - Starting AdApplicationTests on localhost with PID 19466 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+09:39:43.813  INFO  - No active profile set, falling back to default profiles: default
+09:39:43.885  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:39:43 CST 2018]; root of context hierarchy
+09:39:45.961  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:39:46.157  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:39:43 CST 2018]; root of context hierarchy
+09:39:46.258  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+09:39:46.259  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+09:39:46.262  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:39:46.263  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:39:46.297  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:39:46.297  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:39:46.496  INFO  - Started AdApplicationTests in 3.566 seconds (JVM running for 5.189)
+09:40:07.325  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Thu Nov 01 09:39:43 CST 2018]; root of context hierarchy
+09:45:09.754  INFO  - Starting AdApplicationTests on localhost with PID 19491 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+09:45:09.760  INFO  - No active profile set, falling back to default profiles: default
+09:45:09.844  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:45:09 CST 2018]; root of context hierarchy
+09:45:11.808  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:45:12.059  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:45:09 CST 2018]; root of context hierarchy
+09:45:12.155  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+09:45:12.156  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+09:45:12.161  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:45:12.162  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:45:12.197  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:45:12.197  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:45:12.415  INFO  - Started AdApplicationTests in 3.611 seconds (JVM running for 5.296)
+09:45:30.015  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@c430e6c: startup date [Thu Nov 01 09:45:09 CST 2018]; root of context hierarchy
+10:21:40.633  INFO  - Starting AdApplicationTests on localhost with PID 19629 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:21:40.636  INFO  - No active profile set, falling back to default profiles: default
+10:21:40.724  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:21:40 CST 2018]; root of context hierarchy
+10:21:43.470  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:21:43.838  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:21:40 CST 2018]; root of context hierarchy
+10:21:43.959  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:21:43.961  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:21:43.966  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:21:43.968  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:21:44.005  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:21:44.005  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:21:44.298  INFO  - Started AdApplicationTests in 4.873 seconds (JVM running for 6.967)
+10:22:00.060  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:21:40 CST 2018]; root of context hierarchy
+10:24:54.226  INFO  - Starting AdApplicationTests on localhost with PID 19639 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:24:54.229  INFO  - No active profile set, falling back to default profiles: default
+10:24:54.360  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@42257bdd: startup date [Thu Nov 01 10:24:54 CST 2018]; root of context hierarchy
+10:24:57.485  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:24:57.931  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@42257bdd: startup date [Thu Nov 01 10:24:54 CST 2018]; root of context hierarchy
+10:24:58.074  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:24:58.075  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:24:58.083  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:24:58.084  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:24:58.224  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:24:58.224  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:24:58.711  INFO  - Started AdApplicationTests in 5.869 seconds (JVM running for 8.611)
+10:28:14.020  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@42257bdd: startup date [Thu Nov 01 10:24:54 CST 2018]; root of context hierarchy
+10:36:11.463  INFO  - Starting AdApplicationTests on localhost with PID 19668 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:36:11.465  INFO  - No active profile set, falling back to default profiles: default
+10:36:11.565  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@72c8e7b: startup date [Thu Nov 01 10:36:11 CST 2018]; root of context hierarchy
+10:36:13.284  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:36:13.465  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@72c8e7b: startup date [Thu Nov 01 10:36:11 CST 2018]; root of context hierarchy
+10:36:13.565  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:36:13.566  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:36:13.569  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:36:13.570  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:36:13.597  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:36:13.597  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:36:13.780  INFO  - Started AdApplicationTests in 3.217 seconds (JVM running for 4.551)
+10:36:34.408  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@72c8e7b: startup date [Thu Nov 01 10:36:11 CST 2018]; root of context hierarchy
+10:38:08.616  INFO  - Starting AdApplicationTests on localhost with PID 19675 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:38:08.619  INFO  - No active profile set, falling back to default profiles: default
+10:38:08.731  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:38:08 CST 2018]; root of context hierarchy
+10:38:10.515  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:10.703  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:38:08 CST 2018]; root of context hierarchy
+10:38:10.789  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:38:10.790  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:38:10.794  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:38:10.795  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:38:10.828  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:10.828  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:11.035  INFO  - Started AdApplicationTests in 3.324 seconds (JVM running for 4.719)
+10:38:11.704  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:38:08 CST 2018]; root of context hierarchy
+10:38:32.208  INFO  - Starting AdApplicationTests on localhost with PID 19682 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:38:32.210  INFO  - No active profile set, falling back to default profiles: default
+10:38:32.279  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:38:32 CST 2018]; root of context hierarchy
+10:38:34.010  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:34.201  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:38:32 CST 2018]; root of context hierarchy
+10:38:34.288  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:38:34.289  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:38:34.292  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:38:34.293  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:38:34.322  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:34.323  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:34.495  INFO  - Started AdApplicationTests in 3.167 seconds (JVM running for 4.537)
+10:38:34.978  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:38:32 CST 2018]; root of context hierarchy
+10:39:00.365  INFO  - Starting AdApplicationTests on localhost with PID 19686 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:39:00.375  INFO  - No active profile set, falling back to default profiles: default
+10:39:00.460  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:39:00 CST 2018]; root of context hierarchy
+10:39:02.876  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:03.288  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:39:00 CST 2018]; root of context hierarchy
+10:39:03.456  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:39:03.458  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:39:03.461  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:39:03.462  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:39:03.515  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:03.515  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:03.826  INFO  - Started AdApplicationTests in 4.319 seconds (JVM running for 5.74)
+10:39:04.354  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:39:00 CST 2018]; root of context hierarchy
+10:39:18.520  INFO  - Starting AdApplicationTests on localhost with PID 19691 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:39:18.522  INFO  - No active profile set, falling back to default profiles: default
+10:39:18.635  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@480d3575: startup date [Thu Nov 01 10:39:18 CST 2018]; root of context hierarchy
+10:39:20.949  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:21.289  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@480d3575: startup date [Thu Nov 01 10:39:18 CST 2018]; root of context hierarchy
+10:39:21.414  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:39:21.415  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:39:21.418  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:39:21.419  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:39:21.460  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:21.460  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:21.740  INFO  - Started AdApplicationTests in 4.148 seconds (JVM running for 5.521)
+10:39:22.258  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@480d3575: startup date [Thu Nov 01 10:39:18 CST 2018]; root of context hierarchy
+10:40:12.390  INFO  - Starting AdApplicationTests on localhost with PID 19696 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:40:12.392  INFO  - No active profile set, falling back to default profiles: default
+10:40:12.487  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:40:12 CST 2018]; root of context hierarchy
+10:40:14.803  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:40:15.157  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:40:12 CST 2018]; root of context hierarchy
+10:40:15.266  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:40:15.271  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:40:15.274  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:40:15.275  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:40:15.320  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:40:15.324  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:40:15.611  INFO  - Started AdApplicationTests in 4.087 seconds (JVM running for 5.627)
+10:40:16.122  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@790da477: startup date [Thu Nov 01 10:40:12 CST 2018]; root of context hierarchy
+10:40:51.210  INFO  - Starting AdApplicationTests on localhost with PID 19701 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:40:51.212  INFO  - No active profile set, falling back to default profiles: default
+10:40:51.323  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f1da57d: startup date [Thu Nov 01 10:40:51 CST 2018]; root of context hierarchy
+10:40:52.909  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:40:53.069  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@f1da57d: startup date [Thu Nov 01 10:40:51 CST 2018]; root of context hierarchy
+10:40:53.154  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:40:53.154  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:40:53.157  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:40:53.160  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:40:53.187  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:40:53.187  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:40:53.402  INFO  - Started AdApplicationTests in 3.203 seconds (JVM running for 4.753)
+10:40:53.802  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@f1da57d: startup date [Thu Nov 01 10:40:51 CST 2018]; root of context hierarchy
+10:46:43.251  INFO  - Starting AdApplicationTests on localhost with PID 19713 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:46:43.252  INFO  - No active profile set, falling back to default profiles: default
+10:46:43.306  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b7a7f33: startup date [Thu Nov 01 10:46:43 CST 2018]; root of context hierarchy
+10:46:45.679  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:46:46.040  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5b7a7f33: startup date [Thu Nov 01 10:46:43 CST 2018]; root of context hierarchy
+10:46:46.204  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:46:46.205  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:46:46.208  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:46:46.209  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:46:46.249  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:46:46.249  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:46:46.531  INFO  - Started AdApplicationTests in 4.111 seconds (JVM running for 5.856)
+10:47:11.772  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@5b7a7f33: startup date [Thu Nov 01 10:46:43 CST 2018]; root of context hierarchy
+10:47:49.050  INFO  - Starting AdApplicationTests on localhost with PID 19717 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+10:47:49.063  INFO  - No active profile set, falling back to default profiles: default
+10:47:49.181  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@72c8e7b: startup date [Thu Nov 01 10:47:49 CST 2018]; root of context hierarchy
+10:47:51.663  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:47:52.033  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@72c8e7b: startup date [Thu Nov 01 10:47:49 CST 2018]; root of context hierarchy
+10:47:52.165  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+10:47:52.166  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+10:47:52.171  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:47:52.172  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:47:52.225  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:47:52.226  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:47:52.508  INFO  - Started AdApplicationTests in 4.378 seconds (JVM running for 6.0)
+10:48:10.008  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@72c8e7b: startup date [Thu Nov 01 10:47:49 CST 2018]; root of context hierarchy
+11:14:54.387  INFO  - Starting AdApplicationTests on localhost with PID 19788 (started by yangjianghe in /Users/yangjianghe/coding/java/result/ad)
+11:14:54.390  INFO  - No active profile set, falling back to default profiles: default
+11:14:54.437  INFO  - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50378a4: startup date [Thu Nov 01 11:14:54 CST 2018]; root of context hierarchy
+11:14:55.694  INFO  - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:14:55.877  INFO  - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@50378a4: startup date [Thu Nov 01 11:14:54 CST 2018]; root of context hierarchy
+11:14:55.955  INFO  - Mapped "{[/mod_user]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.modUser(com.nanhang.ad.bean.User)
+11:14:55.957  INFO  - Mapped "{[/test_add]}" onto public com.nanhang.ad.utils.ResultMsg com.nanhang.ad.controller.CmdController.testUser(com.nanhang.ad.bean.User) throws java.lang.Exception
+11:14:55.962  INFO  - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:14:55.967  INFO  - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:14:56.011  INFO  - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:14:56.011  INFO  - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:14:56.216  INFO  - Started AdApplicationTests in 2.402 seconds (JVM running for 3.471)
+11:14:56.450  ERROR - 测试日志输出：见鬼了吗
+11:14:57.027  INFO  - Closing org.springframework.web.context.support.GenericWebApplicationContext@50378a4: startup date [Thu Nov 01 11:14:54 CST 2018]; root of context hierarchy
