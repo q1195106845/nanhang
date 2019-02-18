@@ -61,6 +61,4 @@ echo ^@^=^"^\^"%sc%^\^\vm-url-start.bat^\^" ^\^"%%1^\^"^" >>c.reg
 
 :: 结束
 call c.reg
-
-pause
 pause
