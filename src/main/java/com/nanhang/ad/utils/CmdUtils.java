@@ -53,6 +53,7 @@ public class CmdUtils{
         }else if("1".equals(user.getDisabled())){
             modiftyUser +=" -Disabled yes";
         }
+        System.out.println(modiftyUser);
         CmdUtils.execCMD(modiftyUser);
     }
 
@@ -80,7 +81,12 @@ public class CmdUtils{
         byte[] privateDecrypt = RSAUtil.privateDecrypt(base642Byte, privateKey);
 
         String cmd = "dsadd user \""+"CN="+user.getUserName()+","+user.getCn()+"\" -upn Solo -desc Solo -display" +
-                " Solo -memberof \""+user.getGroup()+"\" -pwd "+new String(privateDecrypt)+" -Disabled no";
+                " Solo -memberof \""+user.getGroup()+"\" -pwd "+new String(privateDecrypt)+" ";
+        if("0".equals(user.getDisabled())){
+            cmd += " -Disabled no";
+        }else if("1".equals(user.getDisabled())){
+            cmd +=" -Disabled yes";
+        }
         System.out.println(cmd);
         CmdUtils.execCMD(cmd);
     }
