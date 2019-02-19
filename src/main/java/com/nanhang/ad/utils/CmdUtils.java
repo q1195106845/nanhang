@@ -1,6 +1,7 @@
 package com.nanhang.ad.utils;
 
 import com.nanhang.ad.bean.User;
+import org.springframework.util.StringUtils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -53,6 +54,9 @@ public class CmdUtils{
         }else if("1".equals(user.getDisabled())){
             modiftyUser +=" -Disabled yes";
         }
+        if(!StringUtils.isEmpty(user.getName())){
+            modiftyUser += " -fn "+user.getName()+" -display "+user.getName()+" -desc "+user.getName()+" -ln "+user.getName();
+        }
         System.out.println(modiftyUser);
         CmdUtils.execCMD(modiftyUser);
     }
@@ -86,6 +90,10 @@ public class CmdUtils{
             cmd += " -Disabled no";
         }else if("1".equals(user.getDisabled())){
             cmd +=" -Disabled yes";
+        }
+
+        if(!StringUtils.isEmpty(user.getName())){
+            cmd += " -fn "+user.getName()+" -display "+user.getName()+" -desc "+user.getName()+" -ln "+user.getName();
         }
         System.out.println(cmd);
         CmdUtils.execCMD(cmd);

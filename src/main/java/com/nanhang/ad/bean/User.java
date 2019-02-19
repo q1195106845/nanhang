@@ -23,6 +23,8 @@ public class User {
      */
     private String disabled;
 
+    private String name;
+
 
 
     @Override
