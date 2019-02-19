@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+<script type="text/javascript" src="./jsencrypt.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var privateKey="MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCPFllgJ9HUni/xuPW2k6JChVjo"+
+"cajFN97TXTIfasoqOqiV4394/sDgzs02utd3jqy9bZw7YYaEn1RSib8bNBdw6IzpgvXega4hzTvs"+
+"rJcVlNnqhjaEAaQ2PEtpWx9wkBGm083m16UvFO1IgMRO7yZnhCHlvg79IJCqzCiX3ykvznpU5V+H"+
+"lhW2A4he6XU42OcQqY5q04p8xFYXy6b56AhyxZ6YWvmRWMDjNsV3KRhRPpdNF/8wqDOz+rPw3XaR"+
+"UOQK8JoiO9QUYHfojyMzsBknYK1qbhfLOZDBYA8uCvMTikqDxRTCGuO+T2QL6p9G62Oaz2IF8e/U"+
+"aSU2AyVJR/gZAgMBAAECggEAelOE/SuNu9Ow8VpK1lfItE4EAFSLEG//U3utSialxwx27A2eAPbq"+
+"NkcWMd/yLQgQrbFzi2CI/ACquhWBB+S01ZY6QbfwMtVy5PrsbB3w3EZxNoqfOKOem69YWS3J5xWD"+
+"wbf5o4xgb6vYX8+WBFV346+Wuy6M6eJZS2tWmN/z+iWldrp4XOmyVfWPo88Xthg0UBuDRTAkHH8v"+
+"ToDjMMoQKCZYmL+1Tb7XywRHMK80Bid/uJRIgNq5KQWPOqF/Fmr1XUa3+0wtXIurkvuKzIrLMmnI"+
+"Yqf+mhz310CELnfj+pY0GsqvNmQydI7L1RBvVyEFUdWO2qTudi27lRdZGuBBwQKBgQDZ5je5ujT3"+
+"6oIGz5HNw4K2twm1EWY4Gma6hbbhQusAmZwsXJ3+EtNN3KDp5OKOJ1yMAZdMNyZp1lwjleHd1LoO"+
+"dV6UsFydekxMlNORp5aR+MhErXCmFFo0yon9mjE6g3Q50m35wssMF5QkRempolZRZmghqh2x3kgO"+
+"vfMzAQ2d9QKBgQCoG1ZhlCCx5EC6ApBQT2nFNh0jRl4EtLRwy7TQA99KVA94x875tvoaB1DtON+2"+
+"Yv/c6JuwTRIuvDvjM8a28sBqHe56CkeRzHZsbzTYAMnTOa9MAWXC2ktiFfpU/HcbjkRPmJ4Zze5n"+
+"9a43VI9QXqw5uVDSqWoDdlH84xzzBXUXFQKBgQDFChB0K7UARphkDkl7twM5tJTbnqs/qmgg3Q99"+
+"7aRSe5Wk6++WtHFNpGgCeY6BG4jttfaZ3fknlcbmCwAfN+Ezd+EaNczaPqBGVAJpYRGgWEbJC8mk"+
+"9RyJRmm34ToI/pwYOXhndUVlXuEAWBQu6HSD0UXyw0Fs+WNRqWUFRzuIDQKBgBc6B7pdvBK4JdVN"+
+"i2D9R/DupCH+k/j0esXm72maT1y2tpiKiudnx7CW+DB+njJWBWIhZXl7fJqmeWPQAJHAgqNm1U9Z"+
+"YkAbzvT2fIenvDsKClVnEAdXH/lCbh8V7uMIyhlxTc7k7B7DDDoq3c5N9l/XYfppW/N0gql9O7+8"+
+"LkxtAoGBANYwAJMeRO6lQVK8AchR8A2Jv2stBAUoKkK6Qh8/5Kx50LjYlVQE7W5kXxVD5iMoYqIS"+
+"hEJhGCkubmrUT6qENkwhJNRcp2DnVrqTRR8lsDp1R7M1h5YW8C7YUNuSBTc5sQmJ6LpCc0D2jgaU"+
+"IDxqTJnRmCGfeAYOGh0PFzPJAa7W"
+		$.ajax({
+			url:"http://localhost:9999/getUser",
+			type: "get",
+			success:function(data){
+				// data 格式 {"password":"123456","username":"xgh","serverUrl":"10.2.20.24","domainName":"EIMU","desktopName":"test"}
+				var result = eval("("+data+")");
+ 				var decrypt = new JSEncrypt();
+     			decrypt.setPrivateKey(privateKey);
+     			var uncrypted = decrypt.decrypt(result.password);
+     			console.log(uncrypted);
+     			window.location.href= "vmopen://"+data.serverUrl+"$"+data.username+"$"+data.password+"$"+data.domainName+"$"+data.desktopName+"/";
+			}
+		})
+	
+	
+	
+})
+</script>
+</body>
+</html>
