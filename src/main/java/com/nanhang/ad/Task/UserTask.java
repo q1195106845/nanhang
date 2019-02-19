@@ -6,7 +6,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.nanhang.ad.bean.User;
 import com.nanhang.ad.utils.*;
 import lombok.extern.slf4j.Slf4j;
-import okhttp3.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -35,7 +34,7 @@ public class UserTask {
     @Autowired
     private ThreadPoolExecutor threadPoolExecutor;
 
-    @Value("url")
+    @Value("${url}")
     private String url;
 
 
@@ -63,8 +62,6 @@ public class UserTask {
                     } else {
                         x.setCn(cnList.get(0));
                         CmdUtils.updateUser(x, rsaConfig.privateKey);
-
-
                     }
                     map.put("status", "0");
                 } catch (Exception e) {
