@@ -48,14 +48,15 @@ public class CmdUtils{
         byte[] base642Byte = RSAUtil.base642Byte(user.getPassword());
         //用私钥解密
         byte[] privateDecrypt = RSAUtil.privateDecrypt(base642Byte, privateKey);
-        String modiftyUser = "dsmod user \"" + user.getCn() + "\" -pwd " + new String(privateDecrypt);
+        String modiftyUser = "dsmod user \"" + user.getCn() + "\" -pwd " + new String(privateDecrypt) +" -acctexpires "
+                +user.getAcctexpires();
         if("0".equals(user.getDisabled())){
             modiftyUser += " -Disabled no";
         }else if("1".equals(user.getDisabled())){
             modiftyUser +=" -Disabled yes";
         }
         if(!StringUtils.isEmpty(user.getName())){
-            modiftyUser += " -fn "+user.getName()+" -display "+user.getName()+" -desc "+user.getName()+" -ln "+user.getName();
+            modiftyUser += " -fn "+user.getName()+" -display "+user.getName()+" -desc "+user.getName()+" -ln "+user.getName() ;
         }
         System.out.println(modiftyUser);
         CmdUtils.execCMD(modiftyUser);
@@ -85,12 +86,13 @@ public class CmdUtils{
         byte[] privateDecrypt = RSAUtil.privateDecrypt(base642Byte, privateKey);
 
         String cmd = "dsadd user \""+"CN="+user.getUserName()+","+user.getCn()+"\" -upn Solo -desc Solo -display" +
-                " Solo -memberof \""+user.getGroup()+"\" -pwd "+new String(privateDecrypt)+" ";
+                " Solo -memberof \""+user.getGroup()+"\" -pwd "+new String(privateDecrypt)+" -acctexpires "+user.getAcctexpires();
         if("0".equals(user.getDisabled())){
             cmd += " -Disabled no";
         }else if("1".equals(user.getDisabled())){
             cmd +=" -Disabled yes";
         }
+
 
         if(!StringUtils.isEmpty(user.getName())){
             cmd += " -fn "+user.getName()+" -display "+user.getName()+" -desc "+user.getName()+" -ln "+user.getName();

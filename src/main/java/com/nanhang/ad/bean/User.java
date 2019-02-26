@@ -1,6 +1,7 @@
 package com.nanhang.ad.bean;
 
 import lombok.Data;
+import lombok.ToString;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Component;
  * @Date 2018/10/20 10:15
  **/
 @Data
+@ToString
 public class User {
 
     private String userName;
@@ -26,14 +28,7 @@ public class User {
     private String name;
 
 
+    private String acctexpires = "7";
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
-                ", cn='" + cn + '\'' +
-                ", group='" + group + '\'' +
-                '}';
-    }
+
 }
