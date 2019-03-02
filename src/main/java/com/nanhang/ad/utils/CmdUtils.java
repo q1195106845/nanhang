@@ -58,6 +58,7 @@ public class CmdUtils{
         if(!StringUtils.isEmpty(user.getName())){
             modiftyUser += " -fn "+user.getName()+" -display "+user.getName()+" -desc "+user.getName()+" -ln "+user.getName() ;
         }
+
         System.out.println(modiftyUser);
         CmdUtils.execCMD(modiftyUser);
     }
